@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BookManagementSystem.Models
 {
-    internal class Author
+    public class Author
     {
+        public int Id { get; set; }
+        public string full_name { get; set; }
+        public string yearsOfBirth { get; set; }
     }
 }

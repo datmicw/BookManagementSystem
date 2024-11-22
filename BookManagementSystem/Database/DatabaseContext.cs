@@ -28,7 +28,7 @@ namespace BookManagementSystem.Database
                     connection.Open();
                     SqlCommand command = new SqlCommand(query, connection);
                     command.ExecuteNonQuery();
-                    Console.WriteLine("Query executed successfully!");
+                    Console.WriteLine("Successfully!");
                 }
                 // Bắt lỗi
                 catch (Exception ex)
